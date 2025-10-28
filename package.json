@@ -1,7 +1,7 @@
 {
   "type": "module",
-  "name": "codelijst-luchtzuiveringssysteem",
-  "version": "1.0.0",
+  "name": "codelijst-lulucf_landgebruikscategorie",
+  "version": "0.0.1",
   "description": "",
   "main": "src/main/nodejs/01_codelijst_skos_from_csv.js",
   "scripts": {
