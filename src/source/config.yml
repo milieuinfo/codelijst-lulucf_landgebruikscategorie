@@ -85,7 +85,7 @@ metadata :
     temporal : https://data.omgeving.vlaanderen.be/id/periodoftime/dataset_omg
     type : http://www.w3.org/ns/dcat#Dataset
     provenance:
-      label: "."
+      label: "Classificatie afgesproken in OIS-project 'POC LULUCF-model 2.0'. "
   distribution :
     parquet:
       title: "lulucf_landgebruikscategorie.parquet"
