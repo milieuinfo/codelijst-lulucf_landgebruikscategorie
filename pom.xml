@@ -9,14 +9,14 @@
   <packaging>jar</packaging>
   <groupId>be.vlaanderen.omgeving.data.id.graph</groupId>
   <artifactId>codelijst-lulucf_landgebruikscategorie</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.2</version>
   <name>codelijst-lulucf_landgebruikscategorie</name>
   <description />
   <scm>
     <connection>scm:git:https://github.com/milieuinfo/codelijst-lulucf_landgebruikscategorie.git</connection>
     <developerConnection>scm:git:https://github.com/milieuinfo/codelijst-lulucf_landgebruikscategorie.git</developerConnection>
     <url>https://github.com/milieuinfo/codelijst-lulucf_landgebruikscategorie.git</url>
-    <tag>HEAD</tag>
+    <tag>codelijst-lulucf_landgebruikscategorie-0.0.2</tag>
   </scm>
   <build>
     <plugins>
