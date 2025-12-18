@@ -75,56 +75,65 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
 <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/100> a skos:Concept;
-    skos:definition "Al het land met een houtachtige vegetatie die overeenkomt met de drempelwaarden die gebruikt worden om bos te definiëren in de nationale broeikasgasinventarisatie of die het potentieel heeft om deze drempelwaarden te bereiken (drempelwaarden; oppervlakte (ha): 0,5, boomkroonbedekking (%): 20, boomhoogte (m): 5) (Eggleston et al., 2006)."@nl;
+    skos:definition "All land with woody vegetation that meets the thresholds used to define forest in the national greenhouse gas inventory or that has the potential to meet these thresholds (thresholds; area (ha): 0.5, tree crown cover (%): 20, tree height (m): 5) (Eggleston et al., 2006)."@nl;
     skos:inScheme cat:lulucf_landgebruikscategorie;
     skos:notation "100";
-    skos:note "Al het land met een houtachtige vegetatie die overeenkomt met de drempelwaarden die gebruikt worden om bos te definiëren in de nationale broeikasgasinventarisatie of die het potentieel heeft om deze drempelwaarden te bereiken (drempelwaarden; oppervlakte (ha): 0,5, boomkroonbedekking (%): 20, boomhoogte (m): 5) (Eggleston et al., 2006)."@nl;
+    skos:note "All land with woody vegetation that meets the thresholds used to define forest in the national greenhouse gas inventory or that has the potential to meet these thresholds (thresholds; area (ha): 0.5, tree crown cover (%): 20, tree height (m): 5) (Eggleston et al., 2006)."@nl;
     skos:prefLabel "Forest"@nl;
     skos:topConceptOf cat:lulucf_landgebruikscategorie.
 <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/200> a skos:Concept;
-    skos:definition "Gecultiveerd land, inclusief rijstvelden, en boslandbouwsystemen waarvan de vegetatiestructuur onder de drempelwaarden voor de categorie bos valt (Eggleston et al., 2006)."@nl;
+    skos:definition "Cultivated land, including rice fields, and agroforestry systems whose vegetation structure falls below the thresholds for the forest category (Eggleston et al., 2006)."@nl;
     skos:inScheme cat:lulucf_landgebruikscategorie;
     skos:notation "200";
-    skos:note "Gecultiveerd land, inclusief rijstvelden, en boslandbouwsystemen waarvan de vegetatiestructuur onder de drempelwaarden voor de categorie bos valt (Eggleston et al., 2006)."@nl;
+    skos:note "Cultivated land, including rice fields, and agroforestry systems whose vegetation structure falls below the thresholds for the forest category (Eggleston et al., 2006)."@nl;
     skos:prefLabel "Cropland"@nl;
     skos:topConceptOf cat:lulucf_landgebruikscategorie.
 <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/300> a skos:Concept;
-    skos:definition "Weilanden en grasland die niet als akkerland worden beschouwd. Deze categorie omvat ook systemen met houtachtige vegetatie en andere vegetatie die geen gras is, zoals kruiden en struiken, die onder de drempelwaarden van de categorie bos vallen (Eggleston et al., 2006)."@nl;
+    skos:definition "Pastures and grasslands that are not considered arable land. This category also includes systems with woody vegetation and other vegetation that is not grass, such as herbs and shrubs, that fall below the thresholds for the forest category (Eggleston et al., 2006)."@nl;
     skos:inScheme cat:lulucf_landgebruikscategorie;
     skos:notation "300";
-    skos:note "Weilanden en grasland die niet als akkerland worden beschouwd. Deze categorie omvat ook systemen met houtachtige vegetatie en andere vegetatie die geen gras is, zoals kruiden en struiken, die onder de drempelwaarden van de categorie bos vallen (Eggleston et al., 2006)."@nl;
+    skos:note "Pastures and grasslands that are not considered arable land. This category also includes systems with woody vegetation and other vegetation that is not grass, such as herbs and shrubs, that fall below the thresholds for the forest category (Eggleston et al., 2006)."@nl;
     skos:prefLabel "Grassland"@nl;
     skos:topConceptOf cat:lulucf_landgebruikscategorie.
 <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/400> a skos:Concept;
-    skos:definition "Gebieden met veenontginning en land dat het hele jaar of een deel van het jaar door water bedekt of verzadigd is (bijv. veengebieden) en dat niet tot de categorieën bos, akkerland, grasland of ruimtebeslag behoort (Eggleston et al., 2006)."@nl;
+    skos:definition "Areas with peat extraction and land that is covered or saturated with water throughout all or part of the year (e.g., peatlands) and that does not belong to the categories of forest, cropland, grassland or settlement (Eggleston et al., 2006)."@nl;
     skos:inScheme cat:lulucf_landgebruikscategorie;
     skos:notation "400";
-    skos:note "Gebieden met veenontginning en land dat het hele jaar of een deel van het jaar door water bedekt of verzadigd is (bijv. veengebieden) en dat niet tot de categorieën bos, akkerland, grasland of ruimtebeslag behoort (Eggleston et al., 2006)."@nl;
+    skos:note "Areas with peat extraction and land that is covered or saturated with water throughout all or part of the year (e.g., peatlands) and that does not belong to the categories of forest, cropland, grassland or settlement (Eggleston et al., 2006)."@nl;
     skos:prefLabel "Wetland"@nl;
     skos:topConceptOf cat:lulucf_landgebruikscategorie.
 <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/500> a skos:Concept;
-    skos:definition "Al het ontwikkelde land, inclusief transportinfrastructuur en woongebieden van enige omvang, tenzij ze al onder andere categorieën vallen (Eggleston et al., 2006)."@nl;
+    skos:definition "All developed land, including transport infrastructure and residential areas of any size, unless they already fall under other categories such as forest, cropland, grassland or wetland (Eggleston et al., 2006)."@nl;
     skos:inScheme cat:lulucf_landgebruikscategorie;
+    skos:narrower <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/501>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/502>;
+    skos:narrowerTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/501>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/502>;
     skos:notation "500";
-    skos:note "Al het ontwikkelde land, inclusief transportinfrastructuur en woongebieden van enige omvang, tenzij ze al onder andere categorieën vallen (Eggleston et al., 2006)."@nl;
+    skos:note "All developed land, including transport infrastructure and residential areas of any size, unless they already fall under other categories such as forest, cropland, grassland or wetland (Eggleston et al., 2006)."@nl;
     skos:prefLabel "Settlement"@nl;
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/501>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/502>;
     skos:topConceptOf cat:lulucf_landgebruikscategorie.
 <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/501> a skos:Concept;
-    skos:definition "Al het verharde ontwikkelde land."@nl;
+    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/500>;
+    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/500>;
+    skos:definition "All sealed developed land of the category settlement."@nl;
     skos:inScheme cat:lulucf_landgebruikscategorie;
     skos:notation "501";
-    skos:note "Al het verharde ontwikkelde land."@nl;
+    skos:note "All sealed developed land of the category settlement."@nl;
     skos:prefLabel "Sealed settlement"@nl;
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/500>;
     skos:topConceptOf cat:lulucf_landgebruikscategorie.
 <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/502> a skos:Concept;
-    skos:definition "Al het onverharde ontwikkelde land."@nl;
+    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/500>;
+    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/500>;
+    skos:definition "All unsealed developed land of the category settlement."@nl;
     skos:inScheme cat:lulucf_landgebruikscategorie;
     skos:notation "502";
-    skos:note "Al het onverharde ontwikkelde land."@nl;
+    skos:note "All unsealed developed land of the category settlement."@nl;
     skos:prefLabel "Unsealed settlement"@nl;
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/500>;
     skos:topConceptOf cat:lulucf_landgebruikscategorie.
 cat:lulucf_landgebruikscategorie a skos:ConceptScheme;
-    skos:definition "Deze codelijst bevat een overzicht van de landgebruikscategorieën die gebruikt worden in de context van de Europese LULUCF Verordening mbt de rapportering van de opslag en emissies van broeikasgassen gerelateerd aan landgebruiksveranderingen. "@nl;
+    skos:definition "This code list contains an overview of the Flemish land use categories used in the context of the European LULUCF Regulation regarding the reporting of greenhouse gas storage and emissions related to land use changes. "@nl;
     skos:hasTopConcept <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/100>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/200>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/300>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/400>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/500>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/501>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/502>;
-    skos:note "Deze codelijst bevat een overzicht van de landgebruikscategorieën die gebruikt worden in de context van de Europese LULUCF Verordening mbt de rapportering van de opslag en emissies van broeikasgassen gerelateerd aan landgebruiksveranderingen. "@nl;
-    skos:prefLabel "LULUCF landgebruikscategorieën"@nl.
+    skos:note "This code list contains an overview of the Flemish land use categories used in the context of the European LULUCF Regulation regarding the reporting of greenhouse gas storage and emissions related to land use changes. "@nl;
+    skos:prefLabel "LULUCF land use categories"@nl.
