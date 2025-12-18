@@ -618,8 +618,7 @@
             "prefLabel": "Sealed settlement",
             "semanticRelation": [
                 "cat:500"
-            ],
-            "topConceptOf": "cat:lulucf_landgebruikscategorie"
+            ]
         },
         {
             "id": "cat:502",
@@ -635,8 +634,7 @@
             "prefLabel": "Unsealed settlement",
             "semanticRelation": [
                 "cat:500"
-            ],
-            "topConceptOf": "cat:lulucf_landgebruikscategorie"
+            ]
         },
         {
             "id": "cat:lulucf_landgebruikscategorie",
@@ -649,9 +647,7 @@
                 "cat:200",
                 "cat:300",
                 "cat:400",
-                "cat:500",
-                "cat:501",
-                "cat:502"
+                "cat:500"
             ],
             "note": "This code list contains an overview of the Flemish land use categories used in the context of the European LULUCF Regulation regarding the reporting of greenhouse gas storage and emissions related to land use changes. ",
             "prefLabel": "LULUCF land use categories"

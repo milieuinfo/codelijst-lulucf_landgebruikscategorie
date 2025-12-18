@@ -120,8 +120,7 @@
     skos:notation "501";
     skos:note "All sealed developed land of the category settlement."@nl;
     skos:prefLabel "Sealed settlement"@nl;
-    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/500>;
-    skos:topConceptOf cat:lulucf_landgebruikscategorie.
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/500>.
 <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/502> a skos:Concept;
     skos:broader <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/500>;
     skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/500>;
@@ -130,10 +129,9 @@
     skos:notation "502";
     skos:note "All unsealed developed land of the category settlement."@nl;
     skos:prefLabel "Unsealed settlement"@nl;
-    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/500>;
-    skos:topConceptOf cat:lulucf_landgebruikscategorie.
+    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/500>.
 cat:lulucf_landgebruikscategorie a skos:ConceptScheme;
     skos:definition "This code list contains an overview of the Flemish land use categories used in the context of the European LULUCF Regulation regarding the reporting of greenhouse gas storage and emissions related to land use changes. "@nl;
-    skos:hasTopConcept <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/100>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/200>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/300>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/400>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/500>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/501>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/502>;
+    skos:hasTopConcept <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/100>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/200>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/300>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/400>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/500>;
     skos:note "This code list contains an overview of the Flemish land use categories used in the context of the European LULUCF Regulation regarding the reporting of greenhouse gas storage and emissions related to land use changes. "@nl;
     skos:prefLabel "LULUCF land use categories"@nl.

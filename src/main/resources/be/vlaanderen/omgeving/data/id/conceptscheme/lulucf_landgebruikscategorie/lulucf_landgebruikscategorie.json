@@ -85,8 +85,7 @@
         "prefLabel": "Sealed settlement",
         "semanticRelation": [
             "https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/500"
-        ],
-        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/lulucf_landgebruikscategorie"
+        ]
     },
     {
         "id": "https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/502",
@@ -102,8 +101,7 @@
         "prefLabel": "Unsealed settlement",
         "semanticRelation": [
             "https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/500"
-        ],
-        "topConceptOf": "https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/lulucf_landgebruikscategorie"
+        ]
     },
     {
         "id": "https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/lulucf_landgebruikscategorie",
@@ -116,9 +114,7 @@
             "https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/200",
             "https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/300",
             "https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/400",
-            "https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/500",
-            "https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/501",
-            "https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/502"
+            "https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/500"
         ],
         "note": "This code list contains an overview of the Flemish land use categories used in the context of the European LULUCF Regulation regarding the reporting of greenhouse gas storage and emissions related to land use changes. ",
         "prefLabel": "LULUCF land use categories"
