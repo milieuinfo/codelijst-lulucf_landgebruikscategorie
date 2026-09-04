@@ -533,7 +533,7 @@
     },
     "graph": [
         {
-            "id": "cat:100",
+            "id": "cat:10",
             "type": [
                 "skos:Concept"
             ],
@@ -549,7 +549,7 @@
                 "cat:12",
                 "cat:13"
             ],
-            "notation": "100",
+            "notation": "10",
             "note": "All land with woody vegetation that meets the thresholds used to define forest in the national greenhouse gas inventory or that has the potential to meet these thresholds (thresholds; area (ha): 0.5, tree crown cover (%): 20, tree height (m): 5) (Eggleston et al., 2006).",
             "prefLabel": "Forest",
             "semanticRelation": [
@@ -564,13 +564,13 @@
             "type": [
                 "skos:Concept"
             ],
-            "broader": "cat:100",
-            "broaderTransitive": "cat:100",
+            "broader": "cat:10",
+            "broaderTransitive": "cat:10",
             "inScheme": "cat:lulucf_landgebruikscategorie",
             "notation": "11",
             "prefLabel": "Forest land – confiferous",
             "semanticRelation": [
-                "cat:100"
+                "cat:10"
             ]
         },
         {
@@ -578,13 +578,13 @@
             "type": [
                 "skos:Concept"
             ],
-            "broader": "cat:100",
-            "broaderTransitive": "cat:100",
+            "broader": "cat:10",
+            "broaderTransitive": "cat:10",
             "inScheme": "cat:lulucf_landgebruikscategorie",
             "notation": "12",
             "prefLabel": "Forest land – deciduous",
             "semanticRelation": [
-                "cat:100"
+                "cat:10"
             ]
         },
         {
@@ -592,17 +592,17 @@
             "type": [
                 "skos:Concept"
             ],
-            "broader": "cat:100",
-            "broaderTransitive": "cat:100",
+            "broader": "cat:10",
+            "broaderTransitive": "cat:10",
             "inScheme": "cat:lulucf_landgebruikscategorie",
             "notation": "13",
             "prefLabel": "Forest land – mixed",
             "semanticRelation": [
-                "cat:100"
+                "cat:10"
             ]
         },
         {
-            "id": "cat:200",
+            "id": "cat:20",
             "type": [
                 "skos:Concept"
             ],
@@ -618,7 +618,7 @@
                 "cat:22",
                 "cat:23"
             ],
-            "notation": "200",
+            "notation": "20",
             "note": "Cultivated land, including rice fields, and agroforestry systems whose vegetation structure falls below the thresholds for the forest category (Eggleston et al., 2006).",
             "prefLabel": "Cropland",
             "semanticRelation": [
@@ -633,13 +633,13 @@
             "type": [
                 "skos:Concept"
             ],
-            "broader": "cat:200",
-            "broaderTransitive": "cat:200",
+            "broader": "cat:20",
+            "broaderTransitive": "cat:20",
             "inScheme": "cat:lulucf_landgebruikscategorie",
             "notation": "21",
             "prefLabel": "Cropland – annual crops",
             "semanticRelation": [
-                "cat:200"
+                "cat:20"
             ]
         },
         {
@@ -647,13 +647,13 @@
             "type": [
                 "skos:Concept"
             ],
-            "broader": "cat:200",
-            "broaderTransitive": "cat:200",
+            "broader": "cat:20",
+            "broaderTransitive": "cat:20",
             "inScheme": "cat:lulucf_landgebruikscategorie",
             "notation": "22",
             "prefLabel": "Cropland – temporary grassland",
             "semanticRelation": [
-                "cat:200"
+                "cat:20"
             ]
         },
         {
@@ -661,17 +661,17 @@
             "type": [
                 "skos:Concept"
             ],
-            "broader": "cat:200",
-            "broaderTransitive": "cat:200",
+            "broader": "cat:20",
+            "broaderTransitive": "cat:20",
             "inScheme": "cat:lulucf_landgebruikscategorie",
             "notation": "23",
             "prefLabel": "Cropland – ochards",
             "semanticRelation": [
-                "cat:200"
+                "cat:20"
             ]
         },
         {
-            "id": "cat:300",
+            "id": "cat:30",
             "type": [
                 "skos:Concept"
             ],
@@ -689,7 +689,7 @@
                 "cat:33",
                 "cat:34"
             ],
-            "notation": "300",
+            "notation": "30",
             "note": "Pastures and grasslands that are not considered arable land. This category also includes systems with woody vegetation and other vegetation that is not grass, such as herbs and shrubs, that fall below the thresholds for the forest category (Eggleston et al., 2006).",
             "prefLabel": "Grassland",
             "semanticRelation": [
@@ -705,13 +705,13 @@
             "type": [
                 "skos:Concept"
             ],
-            "broader": "cat:300",
-            "broaderTransitive": "cat:300",
+            "broader": "cat:30",
+            "broaderTransitive": "cat:30",
             "inScheme": "cat:lulucf_landgebruikscategorie",
             "notation": "31",
             "prefLabel": "Permanent grassland (in agricultural use)",
             "semanticRelation": [
-                "cat:300"
+                "cat:30"
             ]
         },
         {
@@ -719,13 +719,13 @@
             "type": [
                 "skos:Concept"
             ],
-            "broader": "cat:300",
-            "broaderTransitive": "cat:300",
+            "broader": "cat:30",
+            "broaderTransitive": "cat:30",
             "inScheme": "cat:lulucf_landgebruikscategorie",
             "notation": "32",
             "prefLabel": "Grassland not in agricultural use",
             "semanticRelation": [
-                "cat:300"
+                "cat:30"
             ]
         },
         {
@@ -733,13 +733,13 @@
             "type": [
                 "skos:Concept"
             ],
-            "broader": "cat:300",
-            "broaderTransitive": "cat:300",
+            "broader": "cat:30",
+            "broaderTransitive": "cat:30",
             "inScheme": "cat:lulucf_landgebruikscategorie",
             "notation": "33",
             "prefLabel": "Heath, shrubs, scrubs",
             "semanticRelation": [
-                "cat:300"
+                "cat:30"
             ]
         },
         {
@@ -747,17 +747,17 @@
             "type": [
                 "skos:Concept"
             ],
-            "broader": "cat:300",
-            "broaderTransitive": "cat:300",
+            "broader": "cat:30",
+            "broaderTransitive": "cat:30",
             "inScheme": "cat:lulucf_landgebruikscategorie",
             "notation": "34",
             "prefLabel": "Trees outside forest",
             "semanticRelation": [
-                "cat:300"
+                "cat:30"
             ]
         },
         {
-            "id": "cat:400",
+            "id": "cat:40",
             "type": [
                 "skos:Concept"
             ],
@@ -775,7 +775,7 @@
                 "cat:43",
                 "cat:44"
             ],
-            "notation": "400",
+            "notation": "40",
             "note": "Areas with peat extraction and land that is covered or saturated with water throughout all or part of the year (e.g., peatlands) and that does not belong to the categories of forest, cropland, grassland or settlement (Eggleston et al., 2006).",
             "prefLabel": "Wetland",
             "semanticRelation": [
@@ -791,13 +791,13 @@
             "type": [
                 "skos:Concept"
             ],
-            "broader": "cat:400",
-            "broaderTransitive": "cat:400",
+            "broader": "cat:40",
+            "broaderTransitive": "cat:40",
             "inScheme": "cat:lulucf_landgebruikscategorie",
             "notation": "41",
             "prefLabel": "Open water",
             "semanticRelation": [
-                "cat:400"
+                "cat:40"
             ]
         },
         {
@@ -805,13 +805,13 @@
             "type": [
                 "skos:Concept"
             ],
-            "broader": "cat:400",
-            "broaderTransitive": "cat:400",
+            "broader": "cat:40",
+            "broaderTransitive": "cat:40",
             "inScheme": "cat:lulucf_landgebruikscategorie",
             "notation": "42",
             "prefLabel": "inland marshes, wetlands on mineral soils",
             "semanticRelation": [
-                "cat:400"
+                "cat:40"
             ]
         },
         {
@@ -819,13 +819,13 @@
             "type": [
                 "skos:Concept"
             ],
-            "broader": "cat:400",
-            "broaderTransitive": "cat:400",
+            "broader": "cat:40",
+            "broaderTransitive": "cat:40",
             "inScheme": "cat:lulucf_landgebruikscategorie",
             "notation": "43",
             "prefLabel": "mires, bogs and fens",
             "semanticRelation": [
-                "cat:400"
+                "cat:40"
             ]
         },
         {
@@ -833,17 +833,17 @@
             "type": [
                 "skos:Concept"
             ],
-            "broader": "cat:400",
-            "broaderTransitive": "cat:400",
+            "broader": "cat:40",
+            "broaderTransitive": "cat:40",
             "inScheme": "cat:lulucf_landgebruikscategorie",
             "notation": "44",
             "prefLabel": "Estuaria/Intertidal flats",
             "semanticRelation": [
-                "cat:400"
+                "cat:40"
             ]
         },
         {
-            "id": "cat:500",
+            "id": "cat:50",
             "type": [
                 "skos:Concept"
             ],
@@ -859,7 +859,7 @@
                 "cat:52",
                 "cat:53"
             ],
-            "notation": "500",
+            "notation": "50",
             "note": "All developed land, including transport infrastructure and residential areas of any size, unless they already fall under other categories such as forest, cropland, grassland or wetland (Eggleston et al., 2006).",
             "prefLabel": "Settlement",
             "semanticRelation": [
@@ -874,15 +874,15 @@
             "type": [
                 "skos:Concept"
             ],
-            "broader": "cat:500",
-            "broaderTransitive": "cat:500",
+            "broader": "cat:50",
+            "broaderTransitive": "cat:50",
             "definition": "All sealed developed land of the category settlement.",
             "inScheme": "cat:lulucf_landgebruikscategorie",
             "notation": "51",
             "note": "All sealed developed land of the category settlement.",
             "prefLabel": "Sealed settlement",
             "semanticRelation": [
-                "cat:500"
+                "cat:50"
             ]
         },
         {
@@ -890,13 +890,13 @@
             "type": [
                 "skos:Concept"
             ],
-            "broader": "cat:500",
-            "broaderTransitive": "cat:500",
+            "broader": "cat:50",
+            "broaderTransitive": "cat:50",
             "inScheme": "cat:lulucf_landgebruikscategorie",
             "notation": "52",
             "prefLabel": "Unsealed settlement – high green",
             "semanticRelation": [
-                "cat:500"
+                "cat:50"
             ]
         },
         {
@@ -904,14 +904,24 @@
             "type": [
                 "skos:Concept"
             ],
-            "broader": "cat:500",
-            "broaderTransitive": "cat:500",
+            "broader": "cat:50",
+            "broaderTransitive": "cat:50",
             "inScheme": "cat:lulucf_landgebruikscategorie",
             "notation": "53",
             "prefLabel": "Unsealed settlement – low green",
             "semanticRelation": [
-                "cat:500"
+                "cat:50"
             ]
+        },
+        {
+            "id": "cat:60",
+            "type": [
+                "skos:Concept"
+            ],
+            "inScheme": "cat:lulucf_landgebruikscategorie",
+            "notation": "60",
+            "prefLabel": "Other land",
+            "topConceptOf": "cat:lulucf_landgebruikscategorie"
         },
         {
             "id": "cat:lulucf_landgebruikscategorie",
@@ -920,11 +930,12 @@
             ],
             "definition": "This code list contains an overview of the Flemish land use categories used in the context of the European LULUCF Regulation regarding the reporting of greenhouse gas storage and emissions related to land use changes. ",
             "hasTopConcept": [
-                "cat:100",
-                "cat:200",
-                "cat:300",
-                "cat:400",
-                "cat:500"
+                "cat:10",
+                "cat:20",
+                "cat:30",
+                "cat:40",
+                "cat:50",
+                "cat:60"
             ],
             "note": "This code list contains an overview of the Flemish land use categories used in the context of the European LULUCF Regulation regarding the reporting of greenhouse gas storage and emissions related to land use changes. ",
             "prefLabel": "LULUCF land use categories"
