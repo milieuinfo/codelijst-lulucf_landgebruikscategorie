@@ -2,7 +2,7 @@
 import yaml from 'js-yaml';
 import fs, {readFileSync} from "fs";
 import rdf from "@zazuko/env-node";
-import {metadataOptions, shapes_dcat, dcat_rules, frame_catalog} from "maven-metadata-generator-npm/src/utils/variables.js";
+import {metadataOptions, shapes_dcat, dcat_rules, frame_catalog} from "@milieuinfo/maven-metadata-generator-npm/src/utils/variables.js";
 
 
 const config = yaml.load(fs.readFileSync('./source/config.yml', 'utf8'));
@@ -309,8 +309,6 @@ const frame_skos_no_prefixes = {
 
 
 
-const xsdOptions = {"file": config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.xsd, "urn": ('urn:' + metadataOptions.groupId + ':' + metadataOptions.artifactId)}
-
 const turtlePath = config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.turtle
 
 const ntriplesPath = config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.nt
@@ -322,10 +320,6 @@ const csvOptions = {"file": config.skos.path + config.skos.name + '/' + config.s
 const jsonOptions = {"file": config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.json, "frame": frame_skos_no_prefixes}
 
 const parquetOptions = {"file": config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.parquet, "frame": frame_skos_no_prefixes}
-
-const excelOptions = {"file": config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.xlsx,
-    "sourcefile": config.skos.path + config.skos.name + '/' + config.skos.name + config.skos.csv,
-    "sheetName": config.types}
 
 const skos_prefixes = Object.assign( {}, config.skos.prefixes, config.prefixes, { '@base' : config.skos.prefixes.concept })
 
@@ -356,12 +350,11 @@ const skosOptions = {
     "ntriplesPath": ntriplesPath,
     "csvOptions": csvOptions,
     "parquetOptions": parquetOptions,
-    "excelOptions": excelOptions,
     //"xsdOptions": xsdOptions
 }
 
 const skosSource = {
-    "sourcePath": config.source.path + config.source.codelijst_csv,
+    "sourcePaths": config.source.codelijst_csv.map(csv => config.source.path + csv),
     "contextPrefixes": Object.assign({},skos_context , skos_prefixes),
     "rules": config.skos.rules,
     "shapesDataset": await rdf.dataset().import(rdf.fromFile(config.ap.path + config.ap.name + '-' + config.ap.type + '/' + config.ap.name + '-' + config.ap.type + config.ap.turtle)),

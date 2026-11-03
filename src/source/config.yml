@@ -1,8 +1,8 @@
 types : lulucf_landgebruikscategorie
 skos:
   rules :
-    skos_rules : /../node_modules/maven-metadata-generator-npm/src/n3/skos-rules.n3
-    dcterms_rules : /../node_modules/maven-metadata-generator-npm/src/n3/dcterms-rules.n3
+    skos_rules : /../node_modules/@milieuinfo/maven-metadata-generator-npm/src/n3/skos-rules.n3
+    dcterms_rules : /../node_modules/@milieuinfo/maven-metadata-generator-npm/src/n3/dcterms-rules.n3
   prefixes :
     concept : https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/
     collectie : https://data.omgeving.vlaanderen.be/id/collection/lulucf_landgebruikscategorie/
@@ -14,13 +14,13 @@ skos:
   csv: .csv
   rdf_xml: .rdf
   json: .json
-  xlsx: .xlsx
   nt: .nt
   parquet: .parquet
 
 source:
   path: ./source/
-  codelijst_csv: codelijst-source.csv
+  codelijst_csv:
+    - codelijst-source.csv
   context: context.json
 dcat:
   path_catalog: be/vlaanderen/omgeving/data/id/catalog/
@@ -92,12 +92,6 @@ metadata :
       description: "LULUCF landgebruikscategorieën geserialiseerd als parquet bestand."
       mediaType: https://www.iana.org/assignments/media-types/application/vnd.apache.parquet
       format: http://publications.europa.eu/resource/authority/file-type/PARQUET
-      type: http://www.w3.org/ns/dcat#Distribution
-    xlsx:
-      title: "lulucf_landgebruikscategorie.xlsx"
-      description: "LULUCF landgebruikscategorieën geserialiseerd als excel bestand."
-      mediaType: https://www.iana.org/assignments/media-types/application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-      format: http://publications.europa.eu/resource/authority/file-type/XLSX
       type: http://www.w3.org/ns/dcat#Distribution
     csv :
       title: "lulucf_landgebruikscategorie.csv"

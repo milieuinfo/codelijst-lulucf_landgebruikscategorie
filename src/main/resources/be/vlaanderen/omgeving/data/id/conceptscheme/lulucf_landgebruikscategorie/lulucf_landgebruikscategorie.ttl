@@ -74,184 +74,184 @@
 @prefix xkos: <http://rdf-vocabulary.ddialliance.org/xkos#>.
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
 
-<https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/10> a skos:Concept;
+cat:10 a skos:Concept;
     skos:definition "All land with woody vegetation that meets the thresholds used to define forest in the national greenhouse gas inventory or that has the potential to meet these thresholds (thresholds; area (ha): 0.5, tree crown cover (%): 20, tree height (m): 5) (Eggleston et al., 2006)."@nl;
     skos:inScheme cat:lulucf_landgebruikscategorie;
-    skos:narrower <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/11>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/12>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/13>;
-    skos:narrowerTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/11>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/12>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/13>;
+    skos:narrower cat:11, cat:12, cat:13;
+    skos:narrowerTransitive cat:11, cat:12, cat:13;
     skos:notation "10";
     skos:note "All land with woody vegetation that meets the thresholds used to define forest in the national greenhouse gas inventory or that has the potential to meet these thresholds (thresholds; area (ha): 0.5, tree crown cover (%): 20, tree height (m): 5) (Eggleston et al., 2006)."@nl;
     skos:prefLabel "Forest"@nl;
-    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/11>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/12>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/13>;
+    skos:semanticRelation cat:11, cat:12, cat:13;
     skos:topConceptOf cat:lulucf_landgebruikscategorie.
-<https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/11> a skos:Concept;
-    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/10>;
-    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/10>;
+cat:11 a skos:Concept;
+    skos:broader cat:10;
+    skos:broaderTransitive cat:10;
     skos:inScheme cat:lulucf_landgebruikscategorie;
     skos:notation "11";
     skos:prefLabel "Forest land – confiferous"@nl;
-    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/10>.
-<https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/12> a skos:Concept;
-    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/10>;
-    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/10>;
+    skos:semanticRelation cat:10.
+cat:12 a skos:Concept;
+    skos:broader cat:10;
+    skos:broaderTransitive cat:10;
     skos:inScheme cat:lulucf_landgebruikscategorie;
     skos:notation "12";
     skos:prefLabel "Forest land – deciduous"@nl;
-    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/10>.
-<https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/13> a skos:Concept;
-    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/10>;
-    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/10>;
+    skos:semanticRelation cat:10.
+cat:13 a skos:Concept;
+    skos:broader cat:10;
+    skos:broaderTransitive cat:10;
     skos:inScheme cat:lulucf_landgebruikscategorie;
     skos:notation "13";
     skos:prefLabel "Forest land – mixed"@nl;
-    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/10>.
-<https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/20> a skos:Concept;
+    skos:semanticRelation cat:10.
+cat:20 a skos:Concept;
     skos:definition "Cultivated land, including rice fields, and agroforestry systems whose vegetation structure falls below the thresholds for the forest category (Eggleston et al., 2006)."@nl;
     skos:inScheme cat:lulucf_landgebruikscategorie;
-    skos:narrower <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/21>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/22>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/23>;
-    skos:narrowerTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/21>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/22>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/23>;
+    skos:narrower cat:21, cat:22, cat:23;
+    skos:narrowerTransitive cat:21, cat:22, cat:23;
     skos:notation "20";
     skos:note "Cultivated land, including rice fields, and agroforestry systems whose vegetation structure falls below the thresholds for the forest category (Eggleston et al., 2006)."@nl;
     skos:prefLabel "Cropland"@nl;
-    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/21>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/22>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/23>;
+    skos:semanticRelation cat:21, cat:22, cat:23;
     skos:topConceptOf cat:lulucf_landgebruikscategorie.
-<https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/21> a skos:Concept;
-    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/20>;
-    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/20>;
+cat:21 a skos:Concept;
+    skos:broader cat:20;
+    skos:broaderTransitive cat:20;
     skos:inScheme cat:lulucf_landgebruikscategorie;
     skos:notation "21";
     skos:prefLabel "Cropland – annual crops"@nl;
-    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/20>.
-<https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/22> a skos:Concept;
-    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/20>;
-    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/20>;
+    skos:semanticRelation cat:20.
+cat:22 a skos:Concept;
+    skos:broader cat:20;
+    skos:broaderTransitive cat:20;
     skos:inScheme cat:lulucf_landgebruikscategorie;
     skos:notation "22";
     skos:prefLabel "Cropland – temporary grassland"@nl;
-    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/20>.
-<https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/23> a skos:Concept;
-    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/20>;
-    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/20>;
+    skos:semanticRelation cat:20.
+cat:23 a skos:Concept;
+    skos:broader cat:20;
+    skos:broaderTransitive cat:20;
     skos:inScheme cat:lulucf_landgebruikscategorie;
     skos:notation "23";
     skos:prefLabel "Cropland – ochards"@nl;
-    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/20>.
-<https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/30> a skos:Concept;
+    skos:semanticRelation cat:20.
+cat:30 a skos:Concept;
     skos:definition "Pastures and grasslands that are not considered arable land. This category also includes systems with woody vegetation and other vegetation that is not grass, such as herbs and shrubs, that fall below the thresholds for the forest category (Eggleston et al., 2006)."@nl;
     skos:inScheme cat:lulucf_landgebruikscategorie;
-    skos:narrower <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/31>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/32>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/33>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/34>;
-    skos:narrowerTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/31>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/32>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/33>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/34>;
+    skos:narrower cat:31, cat:32, cat:33, cat:34;
+    skos:narrowerTransitive cat:31, cat:32, cat:33, cat:34;
     skos:notation "30";
     skos:note "Pastures and grasslands that are not considered arable land. This category also includes systems with woody vegetation and other vegetation that is not grass, such as herbs and shrubs, that fall below the thresholds for the forest category (Eggleston et al., 2006)."@nl;
     skos:prefLabel "Grassland"@nl;
-    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/31>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/32>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/33>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/34>;
+    skos:semanticRelation cat:31, cat:32, cat:33, cat:34;
     skos:topConceptOf cat:lulucf_landgebruikscategorie.
-<https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/31> a skos:Concept;
-    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/30>;
-    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/30>;
+cat:31 a skos:Concept;
+    skos:broader cat:30;
+    skos:broaderTransitive cat:30;
     skos:inScheme cat:lulucf_landgebruikscategorie;
     skos:notation "31";
     skos:prefLabel "Permanent grassland (in agricultural use)"@nl;
-    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/30>.
-<https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/32> a skos:Concept;
-    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/30>;
-    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/30>;
+    skos:semanticRelation cat:30.
+cat:32 a skos:Concept;
+    skos:broader cat:30;
+    skos:broaderTransitive cat:30;
     skos:inScheme cat:lulucf_landgebruikscategorie;
     skos:notation "32";
     skos:prefLabel "Grassland not in agricultural use"@nl;
-    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/30>.
-<https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/33> a skos:Concept;
-    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/30>;
-    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/30>;
+    skos:semanticRelation cat:30.
+cat:33 a skos:Concept;
+    skos:broader cat:30;
+    skos:broaderTransitive cat:30;
     skos:inScheme cat:lulucf_landgebruikscategorie;
     skos:notation "33";
     skos:prefLabel "Heath, shrubs, scrubs"@nl;
-    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/30>.
-<https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/34> a skos:Concept;
-    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/30>;
-    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/30>;
+    skos:semanticRelation cat:30.
+cat:34 a skos:Concept;
+    skos:broader cat:30;
+    skos:broaderTransitive cat:30;
     skos:inScheme cat:lulucf_landgebruikscategorie;
     skos:notation "34";
     skos:prefLabel "Trees outside forest"@nl;
-    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/30>.
-<https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/40> a skos:Concept;
+    skos:semanticRelation cat:30.
+cat:40 a skos:Concept;
     skos:definition "Areas with peat extraction and land that is covered or saturated with water throughout all or part of the year (e.g., peatlands) and that does not belong to the categories of forest, cropland, grassland or settlement (Eggleston et al., 2006)."@nl;
     skos:inScheme cat:lulucf_landgebruikscategorie;
-    skos:narrower <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/41>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/42>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/43>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/44>;
-    skos:narrowerTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/41>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/42>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/43>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/44>;
+    skos:narrower cat:41, cat:42, cat:43, cat:44;
+    skos:narrowerTransitive cat:41, cat:42, cat:43, cat:44;
     skos:notation "40";
     skos:note "Areas with peat extraction and land that is covered or saturated with water throughout all or part of the year (e.g., peatlands) and that does not belong to the categories of forest, cropland, grassland or settlement (Eggleston et al., 2006)."@nl;
     skos:prefLabel "Wetland"@nl;
-    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/41>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/42>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/43>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/44>;
+    skos:semanticRelation cat:41, cat:42, cat:43, cat:44;
     skos:topConceptOf cat:lulucf_landgebruikscategorie.
-<https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/41> a skos:Concept;
-    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/40>;
-    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/40>;
+cat:41 a skos:Concept;
+    skos:broader cat:40;
+    skos:broaderTransitive cat:40;
     skos:inScheme cat:lulucf_landgebruikscategorie;
     skos:notation "41";
     skos:prefLabel "Open water"@nl;
-    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/40>.
-<https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/42> a skos:Concept;
-    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/40>;
-    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/40>;
+    skos:semanticRelation cat:40.
+cat:42 a skos:Concept;
+    skos:broader cat:40;
+    skos:broaderTransitive cat:40;
     skos:inScheme cat:lulucf_landgebruikscategorie;
     skos:notation "42";
     skos:prefLabel "inland marshes, wetlands on mineral soils"@nl;
-    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/40>.
-<https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/43> a skos:Concept;
-    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/40>;
-    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/40>;
+    skos:semanticRelation cat:40.
+cat:43 a skos:Concept;
+    skos:broader cat:40;
+    skos:broaderTransitive cat:40;
     skos:inScheme cat:lulucf_landgebruikscategorie;
     skos:notation "43";
     skos:prefLabel "mires, bogs and fens"@nl;
-    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/40>.
-<https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/44> a skos:Concept;
-    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/40>;
-    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/40>;
+    skos:semanticRelation cat:40.
+cat:44 a skos:Concept;
+    skos:broader cat:40;
+    skos:broaderTransitive cat:40;
     skos:inScheme cat:lulucf_landgebruikscategorie;
     skos:notation "44";
     skos:prefLabel "Estuaria/Intertidal flats"@nl;
-    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/40>.
-<https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/50> a skos:Concept;
+    skos:semanticRelation cat:40.
+cat:50 a skos:Concept;
     skos:definition "All developed land, including transport infrastructure and residential areas of any size, unless they already fall under other categories such as forest, cropland, grassland or wetland (Eggleston et al., 2006)."@nl;
     skos:inScheme cat:lulucf_landgebruikscategorie;
-    skos:narrower <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/51>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/52>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/53>;
-    skos:narrowerTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/51>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/52>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/53>;
+    skos:narrower cat:51, cat:52, cat:53;
+    skos:narrowerTransitive cat:51, cat:52, cat:53;
     skos:notation "50";
     skos:note "All developed land, including transport infrastructure and residential areas of any size, unless they already fall under other categories such as forest, cropland, grassland or wetland (Eggleston et al., 2006)."@nl;
     skos:prefLabel "Settlement"@nl;
-    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/51>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/52>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/53>;
+    skos:semanticRelation cat:51, cat:52, cat:53;
     skos:topConceptOf cat:lulucf_landgebruikscategorie.
-<https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/51> a skos:Concept;
-    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/50>;
-    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/50>;
+cat:51 a skos:Concept;
+    skos:broader cat:50;
+    skos:broaderTransitive cat:50;
     skos:definition "All sealed developed land of the category settlement."@nl;
     skos:inScheme cat:lulucf_landgebruikscategorie;
     skos:notation "51";
     skos:note "All sealed developed land of the category settlement."@nl;
     skos:prefLabel "Sealed settlement"@nl;
-    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/50>.
-<https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/52> a skos:Concept;
-    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/50>;
-    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/50>;
+    skos:semanticRelation cat:50.
+cat:52 a skos:Concept;
+    skos:broader cat:50;
+    skos:broaderTransitive cat:50;
     skos:inScheme cat:lulucf_landgebruikscategorie;
     skos:notation "52";
     skos:prefLabel "Unsealed settlement – high green"@nl;
-    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/50>.
-<https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/53> a skos:Concept;
-    skos:broader <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/50>;
-    skos:broaderTransitive <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/50>;
+    skos:semanticRelation cat:50.
+cat:53 a skos:Concept;
+    skos:broader cat:50;
+    skos:broaderTransitive cat:50;
     skos:inScheme cat:lulucf_landgebruikscategorie;
     skos:notation "53";
     skos:prefLabel "Unsealed settlement – low green"@nl;
-    skos:semanticRelation <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/50>.
-<https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/60> a skos:Concept;
+    skos:semanticRelation cat:50.
+cat:60 a skos:Concept;
     skos:inScheme cat:lulucf_landgebruikscategorie;
     skos:notation "60";
     skos:prefLabel "Other land"@nl;
     skos:topConceptOf cat:lulucf_landgebruikscategorie.
 cat:lulucf_landgebruikscategorie a skos:ConceptScheme;
     skos:definition "This code list contains an overview of the Flemish land use categories used in the context of the European LULUCF Regulation regarding the reporting of greenhouse gas storage and emissions related to land use changes. "@nl;
-    skos:hasTopConcept <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/10>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/20>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/30>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/40>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/50>, <https://data.omgeving.vlaanderen.be/id/concept/lulucf_landgebruikscategorie/60>;
+    skos:hasTopConcept cat:10, cat:20, cat:30, cat:40, cat:50, cat:60;
     skos:note "This code list contains an overview of the Flemish land use categories used in the context of the European LULUCF Regulation regarding the reporting of greenhouse gas storage and emissions related to land use changes. "@nl;
     skos:prefLabel "LULUCF land use categories"@nl.
